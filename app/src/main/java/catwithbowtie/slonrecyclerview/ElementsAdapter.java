@@ -40,7 +40,7 @@ public class ElementsAdapter extends RecyclerView.Adapter<ElementsAdapter.Elemen
     @Override
     public ElementHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.element, parent, false);
+                .inflate(R.layout.card, parent, false);
         return new ElementHolder(itemView);
     }
 
